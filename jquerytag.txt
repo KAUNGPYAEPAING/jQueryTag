@@ -8,3 +8,57 @@ innerText()                        text()
 
 getAttribute                       attr("")       eg $("img").attr("src")
 setAttribute                       attr("","")    eg $("a").attr("href","https::www.google.com")
+                                   attr("class")  eg $("h1").attr("class");         //to detect the class that are applying to the attribute 
+AddEventlistener                   click(function(){})  
+👇👇👇
+eg $('h1').click(function(){
+       $('h1').css('color','red');
+})
+________________________________________________________
+Keypress in jQuery
+$('body').keypress(function(event){
+       console.log(event.key);
+})
+__________________________________________________
+Creating element in jQuery
+
+after('')
+before('')
+
+eg $('h1').after('<button>Hello</button>')
+
+eg $('h1').before('<button>Hello</button>')
+__________________________________________________
+
+adding the element to the selected element 
+
+prepend()
+append()
+__________________________________________________
+
+removing element
+
+remove()
+__________________________________________________
+
+
+Adding animation with jQuery
+
+show()
+hide()
+toggle()
+
+fadeOut()
+fadeIn()
+fadeToggle()
+
+slideUp()
+slideDown()
+slideToggle()
+
+Adding Custom Animation
+
+animate({})                 //can't changle one style to another like color just number// margin // opacity and etc
+eg $('h1').animate({opacity: 0.5})
+
+/***** can add more than one animation eg $('h1').slideUp().slideDown().animate({opacity: 0.5}) *****/

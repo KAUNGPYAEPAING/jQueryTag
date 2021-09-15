@@ -3,3 +3,8 @@ document.querySelector            $ / jQuery
 doument.querySelectorAll          $ / jQuery
 style                              css            eg. $('h1').css('color','red')
                                   hasClass('')     //to detect class
+innerHTML()                        html()         eg $('h1').html('<em>Hello</em>')
+innerText()                        text()
+
+getAttribute                       attr("")       eg $("img").attr("src")
+setAttribute                       attr("","")    eg $("a").attr("href","https::www.google.com")

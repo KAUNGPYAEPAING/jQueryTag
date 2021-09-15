@@ -1,0 +1,5 @@
+       JavaScript               JQuery
+document.querySelector            $ / jQuery
+doument.querySelectorAll          $ / jQuery
+style                              css            eg. $('h1').css('color','red')
+                                  hasClass('')     //to detect class
